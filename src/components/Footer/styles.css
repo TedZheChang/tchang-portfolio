@@ -1,0 +1,31 @@
+.tchang-footer {
+  border-top: solid 1px #eee;
+  text-align: center;
+  grid-row: 3/4;
+  z-index: 2;
+  background-color: #eee;
+  display:flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.outside-link {
+  display: inline-block;
+  margin: 10px 10px 0px 0px;
+  background-size: contain;
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.linkedin {
+  background: url("../../static/linkedin.svg");
+}
+.facebook {
+  background: url("../../static/facebook.svg");
+}
+.github {
+  background: url("../../static/github.svg");
+}

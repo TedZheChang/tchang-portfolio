@@ -1,0 +1,51 @@
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-appear-active,
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+ 
+}
+
+.fade-enter-done{
+  opacity:1;
+}
+
+.fade-exit {
+  transition: opacity 300ms linear;
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms linear;
+}
+.fade-exit-done{
+  opacity:0;
+}
+
+.tchang-body{
+    text-align: center;
+    position: relative;
+}
+
+.main{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;  
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10vh 1fr 8vh;
+}
+
+.grid-content{
+  grid-row: 2/3;
+  height:100%;
+  width: 100%;
+}
+

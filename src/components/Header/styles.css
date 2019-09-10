@@ -1,0 +1,82 @@
+.tchang-header{
+    border-bottom: solid 1px #eee;
+    font-family: Ubuntu,Helvetica Neue,"sans-serif";
+    display:grid;
+    grid-row: 1/2;
+    grid-template-columns: 10vw 40vw 15vw 25vw 10vw;
+    grid-template-rows: 25% 50% 25%;
+    width: 100%;
+    z-index: 2;
+    background-color: black;
+    top:0;
+    left:0;
+
+}
+
+.tchang-header > .tchang-title {
+    font-weight: 700;
+    font-size: 30px;
+    grid-column: 2/3;
+    grid-row: 2/3;  
+    display: flex;
+    align-items: center;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.tchang-navbar{
+    display: flex;
+    justify-content: space-around;
+    justify-self: right;
+    grid-column: 4/5;
+    grid-row:2/3;
+}
+.tchang-navbar > span {
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-action{
+    margin: 0px 10px;
+    padding: 9px 5px;
+    width: 5vw;
+    cursor: pointer;
+    /* background-color: #a6a6a6; */
+    background-color: black;
+    color: white;
+    transition: all 500ms;
+    font-size: 1.1rem;
+    text-decoration: none;
+    vertical-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-action:hover{
+    /* background-color: #ec9b3b; */
+    background-color: #c1e4ff;
+    color: black;
+    font-size: 1.2rem;
+
+}
+
+@media only screen and (max-width: 375px) {
+    .tchang-header > .tchang-title {
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0 10px;
+    }
+        
+    .nav-action{
+        font-size: .4rem;
+        margin: 0px 10px;
+    }
+    .nav-action:hover{
+        /* background-color: #ec9b3b; */
+        font-size: .8rem;
+    
+    }
+    
+}

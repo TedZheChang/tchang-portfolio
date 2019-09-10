@@ -1,0 +1,33 @@
+.project-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  grid-auto-rows: minmax(450px, auto);
+  margin:auto;
+  overflow-y: scroll;
+  justify-content: center;
+  grid-gap: 40px;
+}
+.project-cards {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.resume {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  align-self: end;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.pm {
+  grid-row: 4/5;
+  grid-column: 2/3;
+}
+

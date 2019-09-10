@@ -1,0 +1,29 @@
+.dropdown-enter{
+    height: 0;
+    width:0;
+}
+.dropdown-enter-active{
+    height: 100%;
+    width: 100%;
+    transition: all 500ms;
+}
+.dropdown-enter-done{
+    height:100%;
+    width: 100%;
+}
+.dropdown-exit{
+    height: 100%;
+    width: 100%;
+    transition: all 300ms;
+}
+.dropdown-exit-active{
+    height:0px;
+    width:0px;
+}
+.random {
+    background-color: whitesmoke;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+}

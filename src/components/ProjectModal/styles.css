@@ -1,0 +1,194 @@
+.base-card{
+    height: 450px;
+    width: 350px;
+    /* text-align: center; */
+    box-shadow:0px 10px 10px 2px rgba(0, 0, 0, 0.4);
+    position: relative;
+    display: grid;
+    grid-template-rows: 60% 25% 15%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.base-card-title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    grid-row: 1/2;
+    flex-wrap: wrap;
+    flex-direction: row;
+    cursor: pointer;
+
+} 
+.base-card-image-container{
+    background-color:#c1e4ff;
+}
+.base-card-text{
+    height: 100%;
+    width: 100%;
+    grid-row: 2/3;
+    cursor: pointer;
+
+}
+.base-card-text > p{
+    margin:5%;
+}
+.base-card-links{
+    height: 100%;
+    width: 100%;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.base-card-link-item{
+    cursor: pointer;
+}
+
+.base-card-code-img{
+    margin-left: 25px; 
+    height: 30px;
+    width: 30px;
+    background-image: url("../../static/code.svg")
+}
+.base-card-toggle{
+    text-align: center;
+}
+.base-card-code{
+    text-align: center;
+}
+.base-card-toggle-img{
+    cursor: pointer;
+    margin-left: 25px; 
+    height: 30px;
+    width: 30px;
+    background-image: url("../../static/eye.svg")
+}
+.toggle-enter{
+    opacity: 0;
+}
+.toggle-enter > .modalContent{
+    /* width: 0;
+    height:0; */
+    opacity: 0;
+    background-color:white;
+}
+.toggle-enter-active{
+    opacity: 1;
+    transition: all 200ms;
+}
+.toggle-enter-active > .modalContent{
+    /* width: 100%;
+    height:100%; */
+    opacity: 1;
+    transition:all 300ms 200ms;
+    background-color:white;
+}
+.toggle-enter-done{
+    opacity: 1;
+}
+.toggle-enter-done > .modalContent{
+    /* width: 100%;
+    height:100%; */
+    opacity: 1;
+    background-color:white;
+}
+.toggle-exit{
+    opacity: 1;
+    transition: all 400ms;
+}
+.toggle-exit-active{
+    opacity: 0;
+}
+
+.canvas{
+    box-shadow: 5px 10px 10px 0px (0,0,0,.4)
+}
+
+.modal{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(40, 40, 41,.7);
+    z-index: 998;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 8vh 84vh 8vh;
+}
+.modalContent{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    background-color:white;
+    z-index: 999;
+    cursor: auto;
+    overflow: hidden;
+    box-shadow:0 10px 10px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+}
+.modal-title{
+    grid-row: 1/2;
+    /* background-color:#eee;   */
+    background-color: #c1e4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-title > h3{
+    font-size: 30px;
+}
+
+.modal-content-body{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 30% 70%
+}
+
+.modalSidebar{
+    grid-column: 1/2;
+    display:grid;
+    grid-template-rows: 40% 30% 30%;
+    grid-template-columns: 100%;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}  
+.imageContainer{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-image{
+   border-radius: 5px;
+}
+.modalText{
+    grid-column: 2/3;
+    display:grid;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 100%;
+}
+.exitButton{
+    grid-column: 2/-1;
+    grid-row:1/2;
+    justify-self:right;
+    outline: none;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+    width: 5%;
+    height: 100%;
+    font-weight: 500;
+    font-size: 28px;
+    color:black;
+}

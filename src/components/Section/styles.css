@@ -1,0 +1,28 @@
+.sectionTitle{
+    cursor: pointer;
+    font-size: 28px;
+    background-color: blue;
+}
+.headerTransition-enter{
+    color: black;
+    background-color: blue;
+}
+.headerTransition-enter-active{
+    color: white;
+    background-color: darkblue;
+    transition: all 500ms;
+}
+.headerTransition-enter-done{
+    color:white;
+    background-color: darkblue;
+}
+
+.headerTransition-exit{
+    color: white;
+    background-color: darkblue;
+    transition: color 500ms;
+}
+.headerTransition-exit-active{
+    color:black;
+    background-color: blue;
+}

@@ -1,0 +1,25 @@
+.about-content {
+  grid-template-columns: 10vw 40vw 5vw 35vw 10vw;
+  grid-template-rows: 10% 10% 5% 60%  5% 10%;
+  display: grid;
+}
+.introduction {
+  grid-column: 2/4;
+  grid-row: 4/5;
+  align-self:top;
+}
+
+.title {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: end;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.portrait {
+  grid-column: 4/5;
+  grid-row: 4/5;
+  border: 1px solid black;
+  justify-self: center;
+}
