@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd9cd03d.chunk.css",
-    "main.js": "/static/js/main.e2fe501f.chunk.js",
-    "main.js.map": "/static/js/main.e2fe501f.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.522f3778.js",
-    "runtime~main.js.map": "/static/js/runtime~main.522f3778.js.map",
-    "static/js/2.18fd3e52.chunk.js": "/static/js/2.18fd3e52.chunk.js",
-    "static/js/2.18fd3e52.chunk.js.map": "/static/js/2.18fd3e52.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.9efa566d9186f8f5005fef406ecccb54.js": "/precache-manifest.9efa566d9186f8f5005fef406ecccb54.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.bd9cd03d.chunk.css.map": "/static/css/main.bd9cd03d.chunk.css.map",
-    "static/media/MyResume.pdf": "/static/media/MyResume.94d99b4b.pdf",
-    "static/media/styles.css": "/static/media/linkedin.a42fecfa.svg",
-    "static/media/me.jpeg": "/static/media/me.098a7c5f.jpeg"
+    "main.css": "/tchang-portfolio/static/css/main.a6b128fe.chunk.css",
+    "main.js": "/tchang-portfolio/static/js/main.e6c773e4.chunk.js",
+    "main.js.map": "/tchang-portfolio/static/js/main.e6c773e4.chunk.js.map",
+    "runtime~main.js": "/tchang-portfolio/static/js/runtime~main.d57cff9a.js",
+    "runtime~main.js.map": "/tchang-portfolio/static/js/runtime~main.d57cff9a.js.map",
+    "static/js/2.4a7ceacd.chunk.js": "/tchang-portfolio/static/js/2.4a7ceacd.chunk.js",
+    "static/js/2.4a7ceacd.chunk.js.map": "/tchang-portfolio/static/js/2.4a7ceacd.chunk.js.map",
+    "index.html": "/tchang-portfolio/index.html",
+    "precache-manifest.90d5233303e9cc8091640be2be9b6d6f.js": "/tchang-portfolio/precache-manifest.90d5233303e9cc8091640be2be9b6d6f.js",
+    "service-worker.js": "/tchang-portfolio/service-worker.js",
+    "static/css/main.a6b128fe.chunk.css.map": "/tchang-portfolio/static/css/main.a6b128fe.chunk.css.map",
+    "static/media/MyResume.pdf": "/tchang-portfolio/static/media/MyResume.94d99b4b.pdf",
+    "static/media/styles.css": "/tchang-portfolio/static/media/linkedin.a42fecfa.svg",
+    "static/media/me.jpeg": "/tchang-portfolio/static/media/me.098a7c5f.jpeg"
   }
 }
