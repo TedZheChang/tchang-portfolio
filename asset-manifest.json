@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tchang-portfolio/static/css/main.a6b128fe.chunk.css",
-    "main.js": "/tchang-portfolio/static/js/main.f9bbdc20.chunk.js",
-    "main.js.map": "/tchang-portfolio/static/js/main.f9bbdc20.chunk.js.map",
-    "runtime~main.js": "/tchang-portfolio/static/js/runtime~main.d57cff9a.js",
-    "runtime~main.js.map": "/tchang-portfolio/static/js/runtime~main.d57cff9a.js.map",
-    "static/js/2.18fd3e52.chunk.js": "/tchang-portfolio/static/js/2.18fd3e52.chunk.js",
-    "static/js/2.18fd3e52.chunk.js.map": "/tchang-portfolio/static/js/2.18fd3e52.chunk.js.map",
-    "index.html": "/tchang-portfolio/index.html",
-    "precache-manifest.c953de97054050f0d5f00445d303e8a9.js": "/tchang-portfolio/precache-manifest.c953de97054050f0d5f00445d303e8a9.js",
-    "service-worker.js": "/tchang-portfolio/service-worker.js",
-    "static/css/main.a6b128fe.chunk.css.map": "/tchang-portfolio/static/css/main.a6b128fe.chunk.css.map",
-    "static/media/MyResume.pdf": "/tchang-portfolio/static/media/MyResume.94d99b4b.pdf",
-    "static/media/styles.css": "/tchang-portfolio/static/media/linkedin.a42fecfa.svg",
-    "static/media/me.jpeg": "/tchang-portfolio/static/media/me.098a7c5f.jpeg"
+    "main.css": "/tchang-portfolio/about/static/css/main.2f6c17e3.chunk.css",
+    "main.js": "/tchang-portfolio/about/static/js/main.a6db9d79.chunk.js",
+    "main.js.map": "/tchang-portfolio/about/static/js/main.a6db9d79.chunk.js.map",
+    "runtime~main.js": "/tchang-portfolio/about/static/js/runtime~main.cd3857e7.js",
+    "runtime~main.js.map": "/tchang-portfolio/about/static/js/runtime~main.cd3857e7.js.map",
+    "static/js/2.18fd3e52.chunk.js": "/tchang-portfolio/about/static/js/2.18fd3e52.chunk.js",
+    "static/js/2.18fd3e52.chunk.js.map": "/tchang-portfolio/about/static/js/2.18fd3e52.chunk.js.map",
+    "index.html": "/tchang-portfolio/about/index.html",
+    "precache-manifest.eaf7295c2934ed77220c50c5202629c7.js": "/tchang-portfolio/about/precache-manifest.eaf7295c2934ed77220c50c5202629c7.js",
+    "service-worker.js": "/tchang-portfolio/about/service-worker.js",
+    "static/css/main.2f6c17e3.chunk.css.map": "/tchang-portfolio/about/static/css/main.2f6c17e3.chunk.css.map",
+    "static/media/MyResume.pdf": "/tchang-portfolio/about/static/media/MyResume.94d99b4b.pdf",
+    "static/media/styles.css": "/tchang-portfolio/about/static/media/linkedin.a42fecfa.svg",
+    "static/media/me.jpeg": "/tchang-portfolio/about/static/media/me.098a7c5f.jpeg"
   }
 }
